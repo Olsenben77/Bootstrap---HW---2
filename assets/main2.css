@@ -1,0 +1,35 @@
+@media screen and (max-width: 900px) and (min-width: 800px) {
+  
+}
+#sticky-footer {
+  flex-shrink: none;
+}
+header{
+  border: 1px solid black;
+}
+
+footer 
+{
+  border-top: 8px solid #4aaaa5; 
+}
+
+body
+{
+  display: flex;
+  flex-direction: column; 
+  height: 100vh; 
+  margin:0;
+}
+.background
+  {
+    background: url("https://www.toptal.com/designers/subtlepatterns/patterns/green_gobbler.png");
+}
+hr 
+{
+      width: auto;
+      border: 1px solid lightgray;
+}
+.card
+{
+margin:25px;
+}
