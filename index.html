@@ -15,45 +15,28 @@
 </head>
 
 <body>
-    <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
-            <div class="row">
-                <div class="col-sm-4">
-                    <div class="p-3 mb-2 bg-info text-white">
-                        <ul class="justify-content-center">
-                            <h2>Benjamin Olsen</h2>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-8">
-                    <div class="activelinks">
-                        <button class="navbar-toggler" type="button" data-toggle="collapse"
-                            data-target="#collapsibleNavbar">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <ul class="nav justify-content-end">
-                            <li class="nav-item">
-                                <a class="nav-link active" href="index.html">
-                                    <p class="text-secondary">About</p>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="contact.html">
-                                    <p class="text-secondary">Contact</p>
-                                </a></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="portfolio.html">
-                                    <p class="text-secondary">Portfolio</p>
-                                </a>
-                            </li>
-                        </ul>
-                        </nav>
-                    </div>
-                </div>
+            <a class="navbar-brand" href="index.html" id="logo">Benjamin Olsen</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
+                aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarToggler">
+                <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
             </div>
         </div>
-        </div>
+    </nav>
     </header>
     <div class="background">
         <div class="container1">
@@ -100,14 +83,14 @@
                 </div>
             </div>
         </div>
-
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+            <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
+                <div class="container text-left">
+                    <small>Copyright©</small>
+                </div> 
+        </footer>
 </body>
-<footer>
-    <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
-        <div class="container text-left">
-            <small>Copyright©</small>
-        </div>
-    </footer>
-</footer>
+
 
 </html>
