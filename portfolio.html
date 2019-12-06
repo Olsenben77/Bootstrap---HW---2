@@ -8,52 +8,39 @@
 
     <title>Responsive Portfolio || Ben Olsen</title>
 
-    <!-- Bootstrap CSS -->
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/main2.css" />
+    <link rel="stylesheet" type="text/css" href="assets/portfolio.css" />
 </head>
 
 <body>
     <header>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-4">
-                    <div class="p-3 mb-2 bg-info text-white">
-                        <ul class="justify-content-center">
-                            <h2>Benjamin Olsen</h2>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-8">
-                    <div class="activelinks">
-                        <button class="navbar-toggler" type="button" data-toggle="collapse"
-                            data-target="#collapsibleNavbar">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <ul class="nav justify-content-end">
-                            <li class="nav-item">
-                                <a class="nav-link active" href="index.html">
-                                    <p class="text-secondary">About</p>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="contact.html">
-                                    <p class="text-secondary">Contact</p>
-                                </a></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="portfolio.html">
-                                    <p class="text-secondary">Portfolio</p>
-                                </a>
-                            </li>
-                        </ul>
-                        </nav>
-                    </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="index.html" id="logo">
+                    <h2>Benjamin Olsen</h2>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
+                    aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarToggler">
+                    <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-        </div>
-        </div>
+        </nav>
     </header>
     <div class="background">
         <div class="container1">
@@ -69,22 +56,52 @@
                         </div>
                         <hr>
                         </hr>
-                        <div class="text-center">
-                                <img src="images/LED TV.jpg" class="rounded" alt="LED TV">
-                              </div>
+                     <!--Ran out of time making the content images aligned straight with correct height and width. They are responsive just not in their correct places.--> 
+                        <div class="row">
+                            <div class="col-sm-2">
+                            </div>
+                            <div class="col-sm-4">
+                                <img src="images/Cancun.jpeg" class="img-fluid" alt="Responsive image">
+                            </div>
+                            <div class="col-sm-4">
+                                    <img src="images/Mark Zuckerberg.jpg" class="img-fluid" alt="Responsive image" height="10px;">
+                            </div>
+                            <div class="col-sm-2">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-2">
+                            </div>
+                            <div class="col-sm-4">
+                                <img src="images/Spooner.jpg" class="img-fluid" alt="Responsive image">
+                            </div>
+                            <div class="col-sm-4">
+                                <img src="images/Iphone.jpg" class="img-fluid" alt="Responsive image">
+                            </div>
+                            <div class="col-sm-2">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="text-center">
+                                    <img src="images/LED TV.jpg" class="img-fluid" alt="LED TV" width="320"
+                                        height="250">
                                 </div>
-                              
                             </div>
                         </div>
                     </div>
                 </div>
-</body>
-<footer>
-    <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
-        <div class="container text-left">
-            <small>Copyright©</small>
+            </div>
         </div>
-    </footer>
+    </div>
+</body>
+<footer id="sticky-footer" class="py-4 bg-dark text-white-50">
+    <div class="container text-left">
+        <small>Copyright©</small>
+    </div>
 </footer>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
 
 </html>
