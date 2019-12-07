@@ -1,5 +1,72 @@
-.img-responsive
+.img-fluid
 {
-    max-width: 320px;
-    max-height: 250px;
+   height:310px;
+   max-width:100%;
+    margin:10px;
+}
+
+.WordGuess
+{
+display:flex;
+justify-content:center;
+background-color:#4aaaa7;
+color:#ffffff;
+position:relative;
+left:10px;
+top:-70px;
+flex-wrap:wrap;
+} 
+
+
+
+.RPGgame
+{
+display:flex;
+justify-content:center;
+background-color:#4aaaa7;
+color:#ffffff;
+position:relative;
+left:10px;
+top:-70px;
+flex-wrap:wrap;
+}
+
+
+
+.TriviaGame
+{
+    display:flex;
+    justify-content:center;
+    background-color:#4aaaa7;
+    color:#ffffff;
+    position:relative;
+    left:10px;
+    top:-75px;
+    flex-wrap:wrap;
+}
+
+.RutgersInfoWidget
+{
+display:flex;
+justify-content:center;
+background-color:#4aaaa7;
+color:#ffffff;
+position:relative;
+left:10px;
+top:-75px;
+flex-wrap:wrap;
+}
+
+
+
+.RockPaperScissors
+{
+display:flex;
+justify-content:center;
+background-color:#4aaaa7;
+color:#ffffff;
+position:relative;
+bottom:75px;
+left:10px;
+flex-wrap:wrap;
 }
